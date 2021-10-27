@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            padding-top: 100px;
+            padding-left: 100px;
+        }
+        label {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <form action="./index.html" method="post">
+        <label for="input">Text input</label>
+        <input type="text" id="input"
+        name="input"
+        placeholder="Enter text"
+        value="CodeAcademy"
+        />
+
+        <label for="checkbox">Checkbox Input</label>
+        <input type="checkbox" name="" id="checkbox" /> 
+        <label for="button">Button input</label>
+        <input type="button" value="My button" />
+
+        <label for="email">Button input</label>
+        <input type="email" name="email" id="email" required/>
+
+        <label for="date">Button input</label>
+        <input type="date" name="date" id="date" />
+        <label for="number">Number input</label>
+        <input type="number" name="number" id="number" max="100" step="5" />
+        <label for="file">File input</label>
+        <input type="file" name="file" id="file" />
+        <label for="password">Password input</label>
+        <input type="password" name="password" id="password" />
+        <label for="textarea">Textarea input</label>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+
+        <label for="select">Select input</label>
+        <select name="select" id="select">
+            <option value="codeadademy1">CodeAcademy1</option>
+            <option value="codeadademy2">CodeAcademy2</option>
+            <option value="codeadademy3">CodeAcademy3</option>
+        </select>
+
+        <label for="radio">Radio input</label>
+        <input type="radio" name="radio" id="radio" />
+        <input type="radio" name="radio" id="radio" />
+
+        <label for="buttons">Button input</label>
+        <input type="reset" />
+        <input type="submit" />
+        
+        
+    </form>
+    
+</body>
+</html>
